@@ -74,6 +74,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section img {
@@ -96,6 +97,7 @@ section img {
 
 #text {
     position: absolute;
+    right: -350px;
     color: #ffffff;
     white-space: nowrap;
     font-size: 7.5vw;
